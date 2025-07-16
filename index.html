@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <title>Cativeiro Bar</title>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 font-montserrat overflow-x-hidden">
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-40 bg-gray-950/95 backdrop-blur-md border-b border-red-600/30 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+            <a href="#home" class="flex items-center group">
+                <img src="./assets/logo-cativeiro.png" alt="Logo Cativeiro" class="h-12 md:h-16 w-auto rounded transition-transform duration-300 group-hover:scale-110">
+            </a>
+            <nav class="hidden md:flex space-x-6 lg:space-x-8">
+                <a href="#home" class="nav-link relative group">
+                    <span class="font-bebas text-xl lg:text-2xl transition-all duration-300 group-hover:text-red-400">Home</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#agenda" class="nav-link relative group">
+                    <span class="font-bebas text-xl lg:text-2xl transition-all duration-300 group-hover:text-red-400">Agenda</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#cardapio" class="nav-link relative group">
+                    <span class="font-bebas text-xl lg:text-2xl transition-all duration-300 group-hover:text-red-400">Cardápio</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#quem-somos" class="nav-link relative group">
+                    <span class="font-bebas text-xl lg:text-2xl transition-all duration-300 group-hover:text-red-400">Quem Somos</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="#contato" class="nav-link relative group">
+                    <span class="font-bebas text-xl lg:text-2xl transition-all duration-300 group-hover:text-red-400">Contato</span>
+                    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+                </a>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-white hover:text-red-400 transition-colors duration-300">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden bg-gray-950/95 backdrop-blur-md border-t border-red-600/30 transform -translate-y-full transition-transform duration-300">
+            <nav class="flex flex-col space-y-4 p-4">
+                <a href="#home" class="mobile-nav-link font-bebas text-xl py-2 px-4 rounded hover:bg-red-600/20 transition-all duration-300">Home</a>
+                <a href="#agenda" class="mobile-nav-link font-bebas text-xl py-2 px-4 rounded hover:bg-red-600/20 transition-all duration-300">Agenda</a>
+                <a href="#cardapio" class="mobile-nav-link font-bebas text-xl py-2 px-4 rounded hover:bg-red-600/20 transition-all duration-300">Cardápio</a>
+                <a href="#quem-somos" class="mobile-nav-link font-bebas text-xl py-2 px-4 rounded hover:bg-red-600/20 transition-all duration-300">Quem Somos</a>
+                <a href="#contato" class="mobile-nav-link font-bebas text-xl py-2 px-4 rounded hover:bg-red-600/20 transition-all duration-300">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="app-content" class="pt-24 md:pt-32 pb-16 min-h-screen">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950/95 backdrop-blur-md border-t border-red-600/30 py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <div class="mb-4 md:mb-0">
+                    <img src="./assets/logo-cativeiro.png" alt="Logo Cativeiro" class="h-12 w-auto mx-auto md:mx-0">
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-red-400 transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-red-400 transition-colors duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="text-gray-400 text-sm">
+                <p>&copy; 2025 Cativeiro Bar. Todos os direitos reservados.</p>
+                <p class="mt-2">🎸 Rock, Música e Diversão desde 2020</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>

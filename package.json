@@ -1,0 +1,14 @@
+{
+  "name": "projcativeiro",
+  "version": "1.0.0",
+  "description": "Projeto do site Cativeiro Bar",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "build:tailwind": "@tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
