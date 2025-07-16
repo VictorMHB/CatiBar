@@ -229,9 +229,97 @@ const getCardapioPageContent = () => `
             </p>
         </section>
 
+        <!-- Lanches Section -->
+        <section class="mb-12 md:mb-8">
+            <div class="flex items-center mb-8 md:mb-6">
+                <h2 class="text-3xl md:text-4xl font-bebas gradient-text text-left">Lanches</h2>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Rock Burguer</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer (120g) e queijo mussarela servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 22,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Rap Cheese</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Queijo mussarela, tomate e rúcula servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 22,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Chicken Blues</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Filé de frango crispy, rúcula e tomate servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 22,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Reggae Salad</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer (120g), alface americana, tomate, cebola roxa e mussarela servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 23,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Punk Cheddar</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer (120g) e cheddar servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 24,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Hardcore Queijo</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer (120g), queijo mussarela, queijo prato e queijo parmesão, tomate e rúcula servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 28,00</span>
+                    </div>
+                </div>
+                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
+                    <div class="flex flex-col justify-between h-full">
+                        <div>
+                            <h3 class="font-bold text-white text-base md:text-lg">Heavy Metal Bacon</h3>
+                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer (120g), queijo mussarela, onion rings e bacon servidos no pão de brioche com molho do chef.</p>
+                        </div>
+                        <span class="text-red-400 font-bold text-base md:text-lg mt-2">R$ 28,00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adicionais Section (logo abaixo dos lanches, formato simples) -->
+        <section class="mb-8 md:mb-12">
+            <div class="flex items-center mb-4 md:mb-6">
+                <h4 class="text-lg md:text-xl font-bebas gradient-text text-left">Adicionais</h4>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Batata Frita (100g)</span><span class="text-red-400 font-bold">R$ 8,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Batata Frita e Pepsi <span class="text-xs text-gray-400">(100g + Pepsi lata 350mL)</span></span><span class="text-red-400 font-bold">R$ 12,00</span></li>
+            </ul>
+        </section>
+
         <!-- Porções Section -->
         <section class="mb-12 md:mb-16">
-            <h2 class="text-3xl md:text-4xl font-bebas text-center mb-8 md:mb-12 gradient-text">🍖 Porções</h2>
+            <div class="flex items-center mb-8 md:mb-12">
+                <h2 class="text-3xl md:text-4xl font-bebas gradient-text text-left">Porções</h2>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
             
             <!-- Porções Normais -->
             <div class="mb-8 md:mb-12 slide-in-left">
@@ -340,192 +428,134 @@ const getCardapioPageContent = () => `
             </div>
         </section>
 
-        <!-- Lanches Section -->
-        <section class="mb-12 md:mb-16">
-            <h2 class="text-3xl md:text-4xl font-bebas text-center mb-8 md:mb-12 gradient-text">🥪 Lanches</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">X-Burger</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer, queijo, alface e tomate</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 25,00</span>
-                    </div>
-                </div>
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">X-Bacon</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer, bacon, queijo e salada</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 32,00</span>
-                    </div>
-                </div>
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">X-Frango</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Frango grelhado, queijo e salada</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 28,00</span>
-                    </div>
-                </div>
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">X-Calabresa</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Calabresa, queijo e cebola caramelizada</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 30,00</span>
-                    </div>
-                </div>
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">X-Tudo</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Hambúrguer, bacon, ovo, queijo e salada</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 38,00</span>
-                    </div>
-                </div>
-                <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                    <div class="flex justify-between items-center">
-                        <div>
-                            <h3 class="font-bold text-white text-sm md:text-base">Misto Quente</h3>
-                            <p class="text-xs md:text-sm text-gray-400">Presunto e queijo</p>
-                        </div>
-                        <span class="text-red-400 font-bold text-sm md:text-base">R$ 18,00</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Bebidas Section -->
         <section class="mb-12 md:mb-16">
-            <h2 class="text-3xl md:text-4xl font-bebas text-center mb-8 md:mb-12 gradient-text">🍺 Bebidas</h2>
-            
-            <!-- Cervejas -->
-            <div class="mb-8 md:mb-12">
-                <h3 class="text-xl md:text-2xl font-bebas text-red-400 mb-6 text-center">Cervejas</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">IPA Cativeiro</h4>
-                                <p class="text-xs md:text-sm text-gray-400">500ml - Amarga e aromática</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 25,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Weiss da Casa</h4>
-                                <p class="text-xs md:text-sm text-gray-400">500ml - Suave e refrescante</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 22,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Pilsen Premium</h4>
-                                <p class="text-xs md:text-sm text-gray-400">600ml - Clássica e gelada</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 18,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Heineken</h4>
-                                <p class="text-xs md:text-sm text-gray-400">350ml - Importada</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 12,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Corona</h4>
-                                <p class="text-xs md:text-sm text-gray-400">330ml - Com limão</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 15,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Stella Artois</h4>
-                                <p class="text-xs md:text-sm text-gray-400">473ml - Chopp</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 20,00</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="flex items-center mb-8 md:mb-12">
+                <h2 class="text-3xl md:text-4xl font-bebas gradient-text text-left">Bebidas</h2>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
             </div>
 
-            <!-- Drinks e Outras Bebidas -->
-            <div>
-                <h3 class="text-xl md:text-2xl font-bebas text-red-400 mb-6 text-center">Drinks e Outras Bebidas</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Mojito Cativeiro</h4>
-                                <p class="text-xs md:text-sm text-gray-400">Rum, hortelã e limão</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 30,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Caipirinha de Frutas Vermelhas</h4>
-                                <p class="text-xs md:text-sm text-gray-400">Cachaça e frutas frescas</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 28,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Whisky Cola Premium</h4>
-                                <p class="text-xs md:text-sm text-gray-400">Jack Daniel's e Coca-Cola</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 32,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-left">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Gin Tônica</h4>
-                                <p class="text-xs md:text-sm text-gray-400">Gin premium e tônica</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 35,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-up">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Refrigerante</h4>
-                                <p class="text-xs md:text-sm text-gray-400">350ml - Coca, Pepsi, Sprite</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 8,00</span>
-                        </div>
-                    </div>
-                    <div class="card-hover bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 md:p-6 border border-red-600/20 slide-in-right">
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-bold text-white text-sm md:text-base">Água Mineral</h4>
-                                <p class="text-xs md:text-sm text-gray-400">500ml - Com ou sem gás</p>
-                            </div>
-                            <span class="text-red-400 font-bold text-sm md:text-base">R$ 5,00</span>
-                        </div>
-                    </div>
-                </div>
+            <!-- Cerveja 600ml -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Cerveja 600ml</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
             </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Antarctica</span><span class="text-red-400 font-bold">R$ 12,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Brahma</span><span class="text-red-400 font-bold">R$ 13,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Budweiser</span><span class="text-red-400 font-bold">R$ 14,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Original</span><span class="text-red-400 font-bold">R$ 15,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Spaten</span><span class="text-red-400 font-bold">R$ 15,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Stella Artois</span><span class="text-red-400 font-bold">R$ 16,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Becks</span><span class="text-red-400 font-bold">R$ 17,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Patagonia</span><span class="text-red-400 font-bold">R$ 18,00</span></li>
+            </ul>
+
+            <!-- Cerveja LongNeck -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Cerveja LongNeck</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Budweiser</span><span class="text-red-400 font-bold">R$ 10,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Budweiser Zero</span><span class="text-red-400 font-bold">R$ 10,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Spaten</span><span class="text-red-400 font-bold">R$ 11,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Stella Artois</span><span class="text-red-400 font-bold">R$ 11,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Corona</span><span class="text-red-400 font-bold">R$ 12,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Beck's</span><span class="text-red-400 font-bold">R$ 13,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Patagonia</span><span class="text-red-400 font-bold">R$ 13,00</span></li>
+            </ul>
+
+            <!-- Cerveja Litrão -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Cerveja Litrão</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Antarctica</span><span class="text-red-400 font-bold">R$ 15,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Budweiser</span><span class="text-red-400 font-bold">R$ 16,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Original</span><span class="text-red-400 font-bold">R$ 17,00</span></li>
+            </ul>
+
+            <!-- Doses -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Doses</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Askov</span><span class="text-red-400 font-bold">R$ 7,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Campari</span><span class="text-red-400 font-bold">R$ 12,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Cynar</span><span class="text-red-400 font-bold">R$ 9,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Domecq</span><span class="text-red-400 font-bold">R$ 10,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Gin Rock's</span><span class="text-red-400 font-bold">R$ 9,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Jagermeister</span><span class="text-red-400 font-bold">R$ 18,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Martini</span><span class="text-red-400 font-bold">R$ 12,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Negroni</span><span class="text-red-400 font-bold">R$ 18,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Presidente</span><span class="text-red-400 font-bold">R$ 5,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Rum Montilla</span><span class="text-red-400 font-bold">R$ 10,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Smirnoff</span><span class="text-red-400 font-bold">R$ 9,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Tequila</span><span class="text-red-400 font-bold">R$ 18,00</span></li>
+            </ul>
+
+            <!-- Drinks -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Drinks</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Chevette</span><span class="text-red-400 font-bold">R$ 18,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Gin Tônica</span><span class="text-red-400 font-bold">R$ 17,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Jagerbomb c/ Red Bull</span><span class="text-red-400 font-bold">R$ 28,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Loko Mango</span><span class="text-red-400 font-bold">R$ 20,00</span></li>
+            </ul>
+
+            <!-- Combos -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Combos</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Combo 1 <span class="text-xs text-gray-400">(1 garrafa de Smirnoff + 5 Red Bull)</span></span><span class="text-red-400 font-bold">R$ 160,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Combo 2 <span class="text-xs text-gray-400">(1 garrafa de Askov + 5 Red Bull)</span></span><span class="text-red-400 font-bold">R$ 135,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Combo 3 <span class="text-xs text-gray-400">(1 garrafa de Red Label + 5 Red Bull)</span></span><span class="text-red-400 font-bold">R$ 270,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Combo 4 <span class="text-xs text-gray-400">(1 garrafa de Jack Daniels + 5 Red Bull)</span></span><span class="text-red-400 font-bold">R$ 330,00</span></li>
+            </ul>
+
+            <!-- Caipirinhas -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Caipirinhas</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Smirnoff</span><span class="text-red-400 font-bold">R$ 19,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Saquê</span><span class="text-red-400 font-bold">R$ 19,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Askov</span><span class="text-red-400 font-bold">R$ 17,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Cachaça</span><span class="text-red-400 font-bold">R$ 15,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Água de Coco</span><span class="text-red-400 font-bold">R$ 17,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Jack Daniels</span><span class="text-red-400 font-bold">R$ 38,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Limão c/ Chivas</span><span class="text-red-400 font-bold">R$ 40,00</span></li>
+            </ul>
+
+            <!-- Bebidas -->
+            <div class="flex items-center mb-4 md:mb-6 mt-8">
+                <h3 class="text-xl md:text-2xl font-bebas gradient-text text-left">Bebidas</h3>
+                <div class="flex-1 border-t border-gray-600 ml-4"></div>
+            </div>
+            <ul class="pl-4 text-gray-200 space-y-2">
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Água s/ gás</span><span class="text-red-400 font-bold">R$ 4,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Água c/ gás</span><span class="text-red-400 font-bold">R$ 5,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Energético Red Bull</span><span class="text-red-400 font-bold">R$ 14,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Energético Red Bull (473ml)</span><span class="text-red-400 font-bold">R$ 16,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Refrigerante lata</span><span class="text-red-400 font-bold">R$ 6,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Refrigerante KS</span><span class="text-red-400 font-bold">R$ 5,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Refrigerante 600ml</span><span class="text-red-400 font-bold">R$ 8,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Suco lata</span><span class="text-red-400 font-bold">R$ 8,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Beats</span><span class="text-red-400 font-bold">R$ 14,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Smirnoff Ice</span><span class="text-red-400 font-bold">R$ 14,00</span></li>
+                <li class="flex justify-between border-b border-gray-700 pb-1"><span>Tônica lata</span><span class="text-red-400 font-bold">R$ 9,00</span></li>
+            </ul>
+        </section>
+            
         </section>
     </div>
 `;
